@@ -25,7 +25,7 @@ namespace WpfAppMVVM1.ViewModels
             TestModel1("SAI","CSE");// testModel = new TestModel("SAI","CSE"); 
 
             //testModel1 = (new TestModel() { Name = "", Qualification = "" });
-
+            
             iclickcommand = new DelegateCommand(ClickedMethod);
         }
 
