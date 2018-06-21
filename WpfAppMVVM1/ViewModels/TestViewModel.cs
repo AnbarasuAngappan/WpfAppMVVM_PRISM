@@ -13,6 +13,7 @@ namespace WpfAppMVVM1.ViewModels
     class TestViewModel : BindableBase
     {
         private TestModel testModel;        
+
         public ICommand iclickcommand
         {
             get;
@@ -27,9 +28,7 @@ namespace WpfAppMVVM1.ViewModels
             //testModel1 = (new TestModel() { Name = "", Qualification = "" });
             
             iclickcommand = new DelegateCommand(ClickedMethod);
-        }
-
-     
+        }     
 
         public TestModel TestModel
         {
